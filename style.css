@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.header{
+    /* display: inline; */
+    width: 100%;
+    height: 160px;
+    background-color: black;
+}
+.left{
+    color: white;
+    display: inline-block;
+    position: absolute;
+     left: 45px;
+     /* top: 20px; */
+}
+.left img{
+    width: 116px;
+    /* height: 106px; */
+    filter: invert(100%);
+}
+.left div{
+    margin: 5px;
+    padding: 0px;
+    font-size: 25px;
+}
+.mid{
+
+    color: white;
+    display:block;
+    margin: 0 480px;
+    width: 1000px;
+    padding: 30px;
+
+}
+ .navbar li{
+    display: inline-block;
+    text-decoration: none;
+    /* /* color: white;  */
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px;
+    font-size: 25px;
+    /* margin: 20px; */
+} 
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(203, 203, 212);
+}
+
+.right{
+    color: white;
+    display: inline-block;
+     position: absolute;
+     right: 38px;
+     top: 20px;
+
+}
+.btn{
+    margin: 0px 9px ;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+  background-color: wheat;
+  color: black;
+}
+.container{
+    /* background-color:black; */
+    height: 900px;
+    background: url('gym8.jpg');
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    
+}
+ .inner{
+   color: white;
+   margin-top: -21px;
+   margin-left: 920px;
+}
+.form-grp input{
+    
+     /* text-align: center; */
+     text-align: center;
+    display: block;
+    width: 256px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 7px;
+    /* font size: 7; */
+}
+.banner{
+    color: white;
+    font-size: 40px;
+    height: 100px;
+    width: 600px;
+    background-color: black;
+    margin-left: 580px;
+    margin-top: 167px;
+    text-align: center;
+    /* font-family: 'Mochiy Pop One', sans-serif; */
+    /* font-family: 'Rampart One', cursive; */
+}
+
+
